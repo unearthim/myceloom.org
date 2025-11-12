@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Inter:wght@400;600&display=swap');
+    </style>
+    <rect width="1200" height="630" fill="#F8F7F4"/>
+    
+    <!-- Background Mycelial Network Pattern -->
+    <g opacity="0.1" stroke="#8A9A5B" stroke-width="1.5">
+        <path d="M-50 315 H 1250" />
+        <path d="M200 0 V 630" />
+        <path d="M600 0 V 630" />
+        <path d="M1000 0 V 630" />
+        <circle cx="200" cy="315" r="80" stroke-dasharray="5 5"/>
+        <circle cx="600" cy="315" r="120" stroke-dasharray="5 5"/>
+        <circle cx="1000" cy="315" r="90" stroke-dasharray="5 5"/>
+        <path d="M200,315 C 350,150 450,450 600,315" stroke-dasharray="5 5"/>
+        <path d="M600,315 C 750,500 850,100 1000,315" stroke-dasharray="5 5"/>
+    </g>
+
+    <text x="600" y="280" font-family="'Lora', serif" font-size="72" font-weight="700" text-anchor="middle" fill="#2E2E2E">The Community Substrate</text>
+    <text x="600" y="360" font-family="'Inter', sans-serif" font-size="32" font-weight="400" text-anchor="middle" fill="#5A7D8C">An infrastructural framework for collaborative networks.</text>
+    
+    <text x="600" y="550" font-family="'Inter', sans-serif" font-size="28" font-weight="600" text-anchor="middle" fill="#2E2E2E">myceloom<tspan fill="#A95C3D">.org</tspan></text>
+</svg>

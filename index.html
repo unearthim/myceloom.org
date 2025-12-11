@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script type="application/ld+json">
     {
@@ -30,7 +31,8 @@
         {
           "@type": "Organization",
           "@id": "https://unearth.im/#organization",
-          "name": "unearth.im",
+          "name": "Unearth Heritage Foundry",
+"alternateName": ["Unearth Foundry","Archive & Anvil","Unearth Anvil","Unearth Works","Cultural Infrastructure Foundry"],
           "url": "https://unearth.im",
           "logo": {
             "@type": "ImageObject",
@@ -66,12 +68,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
     <title>Myceloom: The Community Substrate of Collaborative Networks | myceloom.org</title>
     <meta name="title" content="Myceloom: The Community Substrate of Collaborative Networks | myceloom.org">
-    <meta name="description" content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
-    <meta name="keywords" content="Myceloom, Community Organization, Collaborative Networks, Decentralized Governance, Mutual Aid, Mycelium, Distributed Intelligence, Social Infrastructure">
+    <meta name="description"
+        content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
+    <meta name="keywords"
+        content="Myceloom, Community Organization, Collaborative Networks, Decentralized Governance, Mutual Aid, Mycelium, Distributed Intelligence, Social Infrastructure">
     <meta name="author" content="unearth.im"> <!-- Changed for consistency -->
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -81,7 +85,8 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://myceloom.org">
     <meta property="og:title" content="Myceloom: The Community Substrate of Collaborative Networks | myceloom.org">
-    <meta property="og:description" content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
+    <meta property="og:description"
+        content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
     <meta property="og:image" content="https://myceloom.org/og-preview.png">
     <meta property="og:site_name" content="myceloom.org">
 
@@ -89,7 +94,8 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://myceloom.org">
     <meta property="twitter:title" content="Myceloom: The Community Substrate of Collaborative Networks | myceloom.org">
-    <meta property="twitter:description" content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
+    <meta property="twitter:description"
+        content="An investigation into myceloom as an infrastructural framework for community organization that mirrors the decentralized, cooperative principles of biological fungal networks.">
     <meta property="twitter:image" content="https://myceloom.org/og-preview.png">
 
     <!-- Canonical & Webmention -->
@@ -104,25 +110,36 @@
     <!-- Brand Color Meta Tags -->
     <meta name="theme-color" content="#F8F7F4">
     <meta name="msapplication-TileColor" content="#A95C3D">
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Internal Stylesheet -->
     <style>
         /* Adhering to Brand Guide 3.0: Earth & Ink Palette */
         :root {
-            --bg-color: #F8F7F4;       /* Off-White */
-            --text-color: #2E2E2E;    /* Charcoal */
-            --accent-color: #A95C3D;   /* Burnt Sienna */
-            --meta-text-color: #5A7D8C; /* Slate Blue */
+            --bg-color: #F8F7F4;
+            /* Off-White */
+            --text-color: #2E2E2E;
+            /* Charcoal */
+            --accent-color: #A95C3D;
+            /* Burnt Sienna */
+            --meta-text-color: #5A7D8C;
+            /* Slate Blue */
             --border-color: #e0e0e0;
         }
-        html { scroll-behavior: smooth; }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: 'Lora', serif; /* The Manuscript font */
+            font-family: 'Lora', serif;
+            /* The Manuscript font */
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.8;
@@ -131,6 +148,7 @@
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
+
         .container {
             max-width: 1100px;
             margin: 2rem auto 4rem auto;
@@ -138,9 +156,22 @@
             display: flex;
             gap: 4rem;
         }
-        main { flex: 3; }
-        aside { flex: 1; position: sticky; top: 4rem; height: fit-content; }
-        article { max-width: 720px; }
+
+        main {
+            flex: 3;
+        }
+
+        aside {
+            flex: 1;
+            position: sticky;
+            top: 4rem;
+            height: fit-content;
+        }
+
+        article {
+            max-width: 720px;
+        }
+
         h1 {
             font-family: 'Lora', serif;
             font-size: 2.8rem;
@@ -148,8 +179,10 @@
             line-height: 1.2;
             margin-bottom: 0.5rem;
         }
+
         article h2 {
-            font-family: 'Inter', sans-serif; /* Interface font for section headers */
+            font-family: 'Inter', sans-serif;
+            /* Interface font for section headers */
             font-size: 1.5rem;
             font-weight: 700;
             margin-top: 3rem;
@@ -157,8 +190,10 @@
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 0.5rem;
         }
+
         .subtitle {
-            font-family: 'Inter', sans-serif; /* The Interface font */
+            font-family: 'Inter', sans-serif;
+            /* The Interface font */
             font-size: 1rem;
             color: var(--meta-text-color);
             margin-bottom: 3rem;
@@ -166,6 +201,7 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
+
         .intro-summary {
             font-size: 1.2rem;
             font-style: italic;
@@ -174,8 +210,13 @@
             padding-left: 1.5rem;
             margin-bottom: 2.5rem;
         }
-        p, li { font-size: 1.1rem; margin-bottom: 1.5rem; }
-        
+
+        p,
+        li {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
         /* Use <em> for italics per editorial guidelines */
         em {
             font-family: 'Lora', serif;
@@ -188,23 +229,62 @@
             border-bottom: 1px solid var(--accent-color);
             transition: all 0.2s ease;
         }
-        a:hover { background-color: rgba(169, 92, 61, 0.1); border-bottom-color: transparent; }
-        sup { line-height: 0; }
-        sup a { font-family: 'Inter', sans-serif; font-size: 0.8em; font-weight: 600; vertical-align: super; border-bottom: none; }
-        
+
+        a:hover {
+            background-color: rgba(169, 92, 61, 0.1);
+            border-bottom-color: transparent;
+        }
+
+        sup {
+            line-height: 0;
+        }
+
+        sup a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8em;
+            font-weight: 600;
+            vertical-align: super;
+            border-bottom: none;
+        }
+
         /* Footnotes Section */
-        .footnotes { margin-top: 4rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
-        .footnotes ol { padding-left: 20px; }
-        .footnotes li { font-size: 0.85rem; margin-bottom: 0.75rem; color: #555; }
-        .footnotes li p { font-size: 0.85rem; margin-bottom: 0; display: inline; }
-        .footnote-back-link { font-family: 'Inter', sans-serif; margin-left: 0.5rem; text-decoration: none; border-bottom: none; }
-        
+        .footnotes {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .footnotes ol {
+            padding-left: 20px;
+        }
+
+        .footnotes li {
+            font-size: 0.85rem;
+            margin-bottom: 0.75rem;
+            color: #555;
+        }
+
+        .footnotes li p {
+            font-size: 0.85rem;
+            margin-bottom: 0;
+            display: inline;
+        }
+
+        .footnote-back-link {
+            font-family: 'Inter', sans-serif;
+            margin-left: 0.5rem;
+            text-decoration: none;
+            border-bottom: none;
+        }
+
         /* Metadata Sidebar */
         .metadata-box {
             border: 1px solid var(--border-color);
             padding: 1.5rem;
-            font-family: 'Inter', sans-serif; /* The Interface font */
+            font-family: 'Inter', sans-serif;
+            /* The Interface font */
         }
+
         .metadata-box h2 {
             font-size: 1rem;
             font-weight: 700;
@@ -216,19 +296,35 @@
             margin-top: 0;
             margin-bottom: 1.5rem;
         }
+
         .metadata-item.back-link {
             margin-bottom: 2rem;
             padding-bottom: 1.5rem;
             border-bottom: 1px solid var(--border-color);
         }
+
         .metadata-item.back-link a {
             font-weight: 600;
             border-bottom: none;
         }
-        .metadata-item { margin-bottom: 1.5rem; }
-        .metadata-item dt { font-size: 0.8rem; font-weight: 600; color: var(--meta-text-color); margin-bottom: 0.25rem; }
-        .metadata-item dd { font-size: 0.95rem; margin-left: 0; font-weight: 400; }
-        
+
+        .metadata-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .metadata-item dt {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--meta-text-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .metadata-item dd {
+            font-size: 0.95rem;
+            margin-left: 0;
+            font-weight: 400;
+        }
+
         /* Use <em> for italics in sidebar per editorial guidelines */
         .metadata-item dd em {
             font-family: 'Inter', sans-serif;
@@ -238,10 +334,10 @@
             line-height: 1.6;
             display: inline-block;
         }
-        
+
         .metadata-item dd em.main-domain {
-             color: var(--accent-color);
-             font-weight: 700;
+            color: var(--accent-color);
+            font-weight: 700;
         }
 
         .logo-footer {
@@ -251,12 +347,22 @@
             display: flex;
             justify-content: center;
         }
+
         @media (max-width: 900px) {
-            .container { flex-direction: column-reverse; gap: 2rem; margin-top: 2rem; }
-            aside { position: static; top: auto; }
+            .container {
+                flex-direction: column-reverse;
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            aside {
+                position: static;
+                top: auto;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <main>
@@ -266,74 +372,268 @@
                     <p class="subtitle">A Digital Archaeological Investigation</p>
                 </header>
 
-                <p class="intro-summary">Beneath the forest floor lies nature's most successful model of community organization: the mycelial network. "Myceloom" is the infrastructural framework for human communities that mirrors these biological principles of decentralized cooperation, resource sharing, and mutual support.</p>
+                <p class="intro-summary">Beneath the forest floor lies nature's most successful model of community
+                    organization: the mycelial network. "Myceloom" is the infrastructural framework for human
+                    communities that mirrors these biological principles of decentralized cooperation, resource sharing,
+                    and mutual support.</p>
 
-                <p>In the evolution of human organization, communities have historically struggled with the same fundamental challenge that mycelial networks solved hundreds of millions of years ago: how to create resilient, collaborative systems that serve the collective while preserving individual autonomy. Traditional organizational structures rely on hierarchical control, centralized authority, and resource competition—approaches that repeatedly fragment under stress and fail to scale sustainably.<sup id="ref1"><a href="#fn1">1</a></sup></p>
-                <p>Yet beneath the earth lies nature's most successful model of community organization. Mycelial networks demonstrate that thriving ecosystems emerge from decentralized cooperation, resource sharing, and mutual support systems that operate without centralized governance.<sup id="ref2"><a href="#fn2">2</a></sup> Recent research reveals that these fungal communities coordinate complex collective behaviors through purely distributed communication, maintaining ecosystem health across geological timescales through principles that human communities are only beginning to understand.</p>
-                <p>Through digital archaeological excavation, the research foundry unearth.im has identified "myceloom" as the infrastructural framework for community organization that mirrors biological networks. Like the underground networks that connect entire forests, myceloom represents the substrate upon which human communities can weave collaborative relationships that transcend traditional organizational boundaries.</p>
+                <p>In the evolution of human organization, communities have historically struggled with the same
+                    fundamental challenge that mycelial networks solved hundreds of millions of years ago: how to create
+                    resilient, collaborative systems that serve the collective while preserving individual autonomy.
+                    Traditional organizational structures rely on hierarchical control, centralized authority, and
+                    resource competition—approaches that repeatedly fragment under stress and fail to scale
+                    sustainably.<sup id="ref1"><a href="#fn1">1</a></sup></p>
+                <p>Yet beneath the earth lies nature's most successful model of community organization. Mycelial
+                    networks demonstrate that thriving ecosystems emerge from decentralized cooperation, resource
+                    sharing, and mutual support systems that operate without centralized governance.<sup id="ref2"><a
+                            href="#fn2">2</a></sup> Recent research reveals that these fungal communities coordinate
+                    complex collective behaviors through purely distributed communication, maintaining ecosystem health
+                    across geological timescales through principles that human communities are only beginning to
+                    understand.</p>
+                <p>Through digital archaeological excavation, the research foundry unearth.im has identified "myceloom"
+                    as the infrastructural framework for community organization that mirrors biological networks. Like
+                    the underground networks that connect entire forests, myceloom represents the substrate upon which
+                    human communities can weave collaborative relationships that transcend traditional organizational
+                    boundaries.</p>
 
                 <h2>The Architecture of Biological Community</h2>
-                <p>The mycorrhizal networks that connect forest ecosystems represent the most sophisticated community organization system ever evolved. These underground webs connect up to 90% of plant species through fungal partnerships that span thousands of acres, creating what researchers describe as "collaborative structures" that enable entire ecosystems to function as superorganisms.<sup id="ref3"><a href="#fn3">3</a></sup></p>
-                <p>The principles governing these biological communities challenge conventional wisdom about organization and competition. Rather than competing for scarce resources, mycelial networks facilitate resource sharing between species, transferring nutrients from areas of abundance to regions of need, and coordinating collective responses to threats without any centralized command structure.<sup id="ref4"><a href="#fn4">4</a></sup> Research by Dr. Suzanne Simard and others has demonstrated that these networks exhibit what can only be described as community intelligence—collective decision-making that optimizes outcomes for the entire ecosystem rather than individual organisms.</p>
-                <p>Studies of mycorrhizal cooperation reveal that fungal communities operate through what researchers term "indirect reciprocity"—complex webs of mutual support where individual contributions benefit the collective, which in turn supports individual members through distributed resource allocation.<sup id="ref5"><a href="#fn5">5</a></sup> This reciprocal architecture creates resilient systems that adapt to changing conditions while maintaining community cohesion across multiple scales of organization.</p>
+                <p>The mycorrhizal networks that connect forest ecosystems represent the most sophisticated community
+                    organization system ever evolved. These underground webs connect up to 90% of plant species through
+                    fungal partnerships that span thousands of acres, creating what researchers describe as
+                    "collaborative structures" that enable entire ecosystems to function as superorganisms.<sup
+                        id="ref3"><a href="#fn3">3</a></sup></p>
+                <p>The principles governing these biological communities challenge conventional wisdom about
+                    organization and competition. Rather than competing for scarce resources, mycelial networks
+                    facilitate resource sharing between species, transferring nutrients from areas of abundance to
+                    regions of need, and coordinating collective responses to threats without any centralized command
+                    structure.<sup id="ref4"><a href="#fn4">4</a></sup> Research by Dr. Suzanne Simard and others has
+                    demonstrated that these networks exhibit what can only be described as community
+                    intelligence—collective decision-making that optimizes outcomes for the entire ecosystem rather than
+                    individual organisms.</p>
+                <p>Studies of mycorrhizal cooperation reveal that fungal communities operate through what researchers
+                    term "indirect reciprocity"—complex webs of mutual support where individual contributions benefit
+                    the collective, which in turn supports individual members through distributed resource
+                    allocation.<sup id="ref5"><a href="#fn5">5</a></sup> This reciprocal architecture creates resilient
+                    systems that adapt to changing conditions while maintaining community cohesion across multiple
+                    scales of organization.</p>
 
                 <h2>The Myceloom Framework: Biological Principles for Human Community</h2>
-                <p>The term "myceloom" captures something essential about community organization that traditional terms cannot: the active infrastructure that weaves individual members into collaborative networks. Drawing from biological principles of mycelial organization, myceloom represents community frameworks that prioritize connection, reciprocity, and collective resilience over hierarchical control.<sup id="ref6"><a href="#fn6">6</a></sup></p>
-                <p>Recent initiatives demonstrate practical applications of myceloom principles in human organization. The Society for the Protection of Underground Networks (SPUN) operates as a global scientific network that mirrors mycelial architecture—distributed research nodes coordinating collective action while maintaining local autonomy.<sup id="ref7"><a href="#fn7">7</a></sup> Their approach demonstrates how human communities can achieve planetary-scale coordination through decentralized collaboration rather than centralized authority.</p>
-                <p>Similarly, organizations like the Mycelium Youth Network apply biological network principles to community building, creating resilient support systems that address environmental justice through distributed organizing models that emphasize mutual aid and resource sharing.<sup id="ref8"><a href="#fn8">8</a></sup> These initiatives suggest that myceloom architectures offer viable alternatives to traditional organizational hierarchies.</p>
+                <p>The term "myceloom" captures something essential about community organization that traditional terms
+                    cannot: the active infrastructure that weaves individual members into collaborative networks.
+                    Drawing from biological principles of mycelial organization, myceloom represents community
+                    frameworks that prioritize connection, reciprocity, and collective resilience over hierarchical
+                    control.<sup id="ref6"><a href="#fn6">6</a></sup></p>
+                <p>Recent initiatives demonstrate practical applications of myceloom principles in human organization.
+                    The Society for the Protection of Underground Networks (SPUN) operates as a global scientific
+                    network that mirrors mycelial architecture—distributed research nodes coordinating collective action
+                    while maintaining local autonomy.<sup id="ref7"><a href="#fn7">7</a></sup> Their approach
+                    demonstrates how human communities can achieve planetary-scale coordination through decentralized
+                    collaboration rather than centralized authority.</p>
+                <p>Similarly, organizations like the Mycelium Youth Network apply biological network principles to
+                    community building, creating resilient support systems that address environmental justice through
+                    distributed organizing models that emphasize mutual aid and resource sharing.<sup id="ref8"><a
+                            href="#fn8">8</a></sup> These initiatives suggest that myceloom architectures offer viable
+                    alternatives to traditional organizational hierarchies.</p>
 
                 <h2>The Substrate of Connection: Community Infrastructure</h2>
-                <p>Perhaps most importantly, mycelial networks demonstrate that healthy communities require active cultivation of connections rather than passive membership structures. Research reveals that fungal networks continuously grow new connections, strengthen beneficial relationships, and allow unproductive pathways to die back—a dynamic process that researchers describe as "constantly reaching out for new connections" while prioritizing relationships that "nourish the entire network."<sup id="ref9"><a href="#fn9">9</a></sup></p>
-                <p>This biological insight challenges static models of community organization. Rather than fixed membership structures, myceloom communities operate as living systems that adapt membership and connection patterns based on collective needs and individual contributions. The Mycelium Network Society exemplifies this approach, describing itself as "an open, living, organic network" where members function as autonomous nodes that "cultivate locally and connect globally."<sup id="ref10"><a href="#fn10">10</a></sup></p>
-                <p>The infrastructure metaphor is literal rather than abstract. Just as mycelial networks create the physical substrate that enables forest ecosystems to thrive, myceloom represents the social infrastructure—the principles, practices, and platforms—that enable human communities to achieve collaborative resilience. Research suggests that communities adopting mycelial principles demonstrate enhanced "collective intelligence" and superior adaptive capacity compared to hierarchically organized groups.<sup id="ref11"><a href="#fn11">11</a></sup></p>
+                <p>Perhaps most importantly, mycelial networks demonstrate that healthy communities require active
+                    cultivation of connections rather than passive membership structures. Research reveals that fungal
+                    networks continuously grow new connections, strengthen beneficial relationships, and allow
+                    unproductive pathways to die back—a dynamic process that researchers describe as "constantly
+                    reaching out for new connections" while prioritizing relationships that "nourish the entire
+                    network."<sup id="ref9"><a href="#fn9">9</a></sup></p>
+                <p>This biological insight challenges static models of community organization. Rather than fixed
+                    membership structures, myceloom communities operate as living systems that adapt membership and
+                    connection patterns based on collective needs and individual contributions. The Mycelium Network
+                    Society exemplifies this approach, describing itself as "an open, living, organic network" where
+                    members function as autonomous nodes that "cultivate locally and connect globally."<sup
+                        id="ref10"><a href="#fn10">10</a></sup></p>
+                <p>The infrastructure metaphor is literal rather than abstract. Just as mycelial networks create the
+                    physical substrate that enables forest ecosystems to thrive, myceloom represents the social
+                    infrastructure—the principles, practices, and platforms—that enable human communities to achieve
+                    collaborative resilience. Research suggests that communities adopting mycelial principles
+                    demonstrate enhanced "collective intelligence" and superior adaptive capacity compared to
+                    hierarchically organized groups.<sup id="ref11"><a href="#fn11">11</a></sup></p>
 
                 <h2>Distributed Governance: Lessons from Fungal Democracy</h2>
-                <p>Mycelial networks achieve complex coordination without centralized leadership through what researchers describe as "collective decision-making" that emerges from local interactions between network members.<sup id="ref12"><a href="#fn12">12</a></sup> Individual hyphal tips respond to local conditions while contributing to network-wide patterns of resource allocation, threat response, and growth coordination. This distributed intelligence suggests new models for human governance based on networked decision-making rather than representative delegation.</p>
-                <p>Recent research in community mycology reveals that human groups studying fungal networks often develop organizational structures that mirror biological principles. Community mycologist Katie Crawford describes how mycelial studies inspire people to "get more involved in their communities" through approaches that emphasize connection and mutual support over competitive individualism.<sup id="ref13"><a href="#fn13">13</a></sup> These groups demonstrate how learning from biological networks can transform human approaches to collective organization.</p>
-                <p>The implications extend beyond small-group dynamics. Research suggests that mycelium-inspired governance models could address systemic challenges in human coordination, from local community organizing to global environmental cooperation. The key insight is that effective governance emerges from network effects rather than centralized control—authority distributed throughout the system rather than concentrated in specific institutions.<sup id="ref14"><a href="#fn14">14</a></sup></p>
+                <p>Mycelial networks achieve complex coordination without centralized leadership through what
+                    researchers describe as "collective decision-making" that emerges from local interactions between
+                    network members.<sup id="ref12"><a href="#fn12">12</a></sup> Individual hyphal tips respond to local
+                    conditions while contributing to network-wide patterns of resource allocation, threat response, and
+                    growth coordination. This distributed intelligence suggests new models for human governance based on
+                    networked decision-making rather than representative delegation.</p>
+                <p>Recent research in community mycology reveals that human groups studying fungal networks often
+                    develop organizational structures that mirror biological principles. Community mycologist Katie
+                    Crawford describes how mycelial studies inspire people to "get more involved in their communities"
+                    through approaches that emphasize connection and mutual support over competitive individualism.<sup
+                        id="ref13"><a href="#fn13">13</a></sup> These groups demonstrate how learning from biological
+                    networks can transform human approaches to collective organization.</p>
+                <p>The implications extend beyond small-group dynamics. Research suggests that mycelium-inspired
+                    governance models could address systemic challenges in human coordination, from local community
+                    organizing to global environmental cooperation. The key insight is that effective governance emerges
+                    from network effects rather than centralized control—authority distributed throughout the system
+                    rather than concentrated in specific institutions.<sup id="ref14"><a href="#fn14">14</a></sup></p>
 
                 <h2>The Economics of Reciprocity: Resource Sharing Networks</h2>
-                <p>Perhaps most radically, mycelial communities operate through economic principles that prioritize collective benefit over individual accumulation. Fungal networks transfer resources based on need rather than payment, with "wealthy" areas of the network supporting "struggling" regions through what researchers describe as "mutual aid" systems that operate at ecosystem scales.<sup id="ref15"><a href="#fn15">15</a></sup></p>
-                <p>These biological economics suggest alternative models for human resource distribution. Rather than market-based competition or state-controlled redistribution, myceloom frameworks enable communities to develop "gift economies" where individual contributions circulate throughout the network based on collective needs rather than individual ownership claims.<sup id="ref16"><a href="#fn16">16</a></sup> Research shows that communities adopting reciprocal resource-sharing models demonstrate superior resilience during crisis periods compared to competitive economic systems.</p>
-                <p>The Urban Mycelium project demonstrates practical applications of these principles, creating community networks that "help the actors of the city improve their practice and better cooperate with each other" through approaches that mirror biological resource-sharing patterns.<sup id="ref17"><a href="#fn17">17</a></sup> These initiatives suggest that myceloom economics could provide sustainable alternatives to extractive economic models.</p>
+                <p>Perhaps most radically, mycelial communities operate through economic principles that prioritize
+                    collective benefit over individual accumulation. Fungal networks transfer resources based on need
+                    rather than payment, with "wealthy" areas of the network supporting "struggling" regions through
+                    what researchers describe as "mutual aid" systems that operate at ecosystem scales.<sup
+                        id="ref15"><a href="#fn15">15</a></sup></p>
+                <p>These biological economics suggest alternative models for human resource distribution. Rather than
+                    market-based competition or state-controlled redistribution, myceloom frameworks enable communities
+                    to develop "gift economies" where individual contributions circulate throughout the network based on
+                    collective needs rather than individual ownership claims.<sup id="ref16"><a
+                            href="#fn16">16</a></sup> Research shows that communities adopting reciprocal
+                    resource-sharing models demonstrate superior resilience during crisis periods compared to
+                    competitive economic systems.</p>
+                <p>The Urban Mycelium project demonstrates practical applications of these principles, creating
+                    community networks that "help the actors of the city improve their practice and better cooperate
+                    with each other" through approaches that mirror biological resource-sharing patterns.<sup
+                        id="ref17"><a href="#fn17">17</a></sup> These initiatives suggest that myceloom economics could
+                    provide sustainable alternatives to extractive economic models.</p>
 
                 <h2>The Healing Network: Community as Immune System</h2>
-                <p>Mycelial networks function as "immune systems" that protect entire ecosystems by "detecting and destroying dangerous pathogens" while "nourishing a diverse succession of collaborating organisms."<sup id="ref18"><a href="#fn18">18</a></sup> This biological function suggests that healthy human communities require similar infrastructure—networks capable of identifying and addressing threats to collective wellbeing while supporting diversity and collaboration among members.</p>
-                <p>Research in community resilience reveals that neighborhoods and organizations adopting mycelial principles develop enhanced capacity for collective healing and threat response. These communities demonstrate what researchers describe as "community immunity"—distributed support systems that prevent individual crises from destabilizing the entire network while enabling rapid collective response to external challenges.<sup id="ref19"><a href="#fn19">19</a></sup></p>
-                <p>The healing metaphor extends beyond crisis response to encompass regenerative community development. Just as mycelial networks continuously repair damaged ecosystem connections, myceloom communities prioritize relationship repair, conflict transformation, and regenerative justice over punitive responses to community challenges.<sup id="ref20"><a href="#fn20">20</a></sup></p>
+                <p>Mycelial networks function as "immune systems" that protect entire ecosystems by "detecting and
+                    destroying dangerous pathogens" while "nourishing a diverse succession of collaborating
+                    organisms."<sup id="ref18"><a href="#fn18">18</a></sup> This biological function suggests that
+                    healthy human communities require similar infrastructure—networks capable of identifying and
+                    addressing threats to collective wellbeing while supporting diversity and collaboration among
+                    members.</p>
+                <p>Research in community resilience reveals that neighborhoods and organizations adopting mycelial
+                    principles develop enhanced capacity for collective healing and threat response. These communities
+                    demonstrate what researchers describe as "community immunity"—distributed support systems that
+                    prevent individual crises from destabilizing the entire network while enabling rapid collective
+                    response to external challenges.<sup id="ref19"><a href="#fn19">19</a></sup></p>
+                <p>The healing metaphor extends beyond crisis response to encompass regenerative community development.
+                    Just as mycelial networks continuously repair damaged ecosystem connections, myceloom communities
+                    prioritize relationship repair, conflict transformation, and regenerative justice over punitive
+                    responses to community challenges.<sup id="ref20"><a href="#fn20">20</a></sup></p>
 
                 <h2>The Future of Collaborative Organization</h2>
-                <p>As documented in foundational research, human communities are evolving toward collaborative architectures that enhance collective capabilities through partnership rather than competition.<sup id="ref21"><a href="#fn21">21</a></sup> Myceloom frameworks provide the organizational substrate for such evolution—community infrastructure that enables human groups to achieve the collaborative resilience demonstrated by biological networks.</p>
-                <p>The convergence suggests a future where human organization functions through principles learned from the most successful community systems on Earth. Research demonstrates that groups adopting mycelial organizational principles achieve superior collective outcomes while maintaining individual autonomy and creative diversity.<sup id="ref22"><a href="#fn22">22</a></sup> These hybrid approaches point toward community development that recognizes collaboration as fundamental to human thriving.</p>
-                <p>The linguistic innovation of "myceloom" provides essential terminology for this organizational evolution. Rather than describing "decentralized communities with resource-sharing protocols and distributed governance structures," one can speak of myceloom organization and immediately convey the essential qualities: biological, collaborative, resilient, adaptive. This precision enables clearer thinking about community development that honors both individual agency and collective intelligence.</p>
-                <p>As humanity faces unprecedented challenges that require collaborative responses, the mycelial networks beneath the forest floor offer profound lessons about sustainable community organization. The future of human cooperation may lie not in perfecting centralized institutions, but in learning to weave human communities into the living networks that demonstrate nature's most sophisticated approaches to collective thriving.</p>
-                <p>The myceloom framework captures this evolution: community organization systems that grow like biological networks, adapt like living ecosystems, and demonstrate the collaborative resilience necessary for addressing complex challenges. In this convergence of ancient ecological wisdom and contemporary social innovation, we find not just organizational efficiency, but pathways toward communities that nourish all members while enhancing collective capabilities.</p>
+                <p>As documented in foundational research, human communities are evolving toward collaborative
+                    architectures that enhance collective capabilities through partnership rather than competition.<sup
+                        id="ref21"><a href="#fn21">21</a></sup> Myceloom frameworks provide the organizational substrate
+                    for such evolution—community infrastructure that enables human groups to achieve the collaborative
+                    resilience demonstrated by biological networks.</p>
+                <p>The convergence suggests a future where human organization functions through principles learned from
+                    the most successful community systems on Earth. Research demonstrates that groups adopting mycelial
+                    organizational principles achieve superior collective outcomes while maintaining individual autonomy
+                    and creative diversity.<sup id="ref22"><a href="#fn22">22</a></sup> These hybrid approaches point
+                    toward community development that recognizes collaboration as fundamental to human thriving.</p>
+                <p>The linguistic innovation of "myceloom" provides essential terminology for this organizational
+                    evolution. Rather than describing "decentralized communities with resource-sharing protocols and
+                    distributed governance structures," one can speak of myceloom organization and immediately convey
+                    the essential qualities: biological, collaborative, resilient, adaptive. This precision enables
+                    clearer thinking about community development that honors both individual agency and collective
+                    intelligence.</p>
+                <p>As humanity faces unprecedented challenges that require collaborative responses, the mycelial
+                    networks beneath the forest floor offer profound lessons about sustainable community organization.
+                    The future of human cooperation may lie not in perfecting centralized institutions, but in learning
+                    to weave human communities into the living networks that demonstrate nature's most sophisticated
+                    approaches to collective thriving.</p>
+                <p>The myceloom framework captures this evolution: community organization systems that grow like
+                    biological networks, adapt like living ecosystems, and demonstrate the collaborative resilience
+                    necessary for addressing complex challenges. In this convergence of ancient ecological wisdom and
+                    contemporary social innovation, we find not just organizational efficiency, but pathways toward
+                    communities that nourish all members while enhancing collective capabilities.</p>
 
                 <section class="footnotes">
                     <h2>Notes</h2>
                     <ol>
-                        <li id="fn1"><p>Elinor Ostrom, "Governing the Commons: The Evolution of Institutions for Collective Action" (Cambridge: Cambridge University Press, 1990), 23-45.</p><a href="#ref1" class="footnote-back-link">↩</a></li>
-                        <li id="fn2"><p>Suzanne Simard, "Finding the Mother Tree: Discovering the Wisdom of the Forest" (New York: Knopf, 2021), 187-203.</p><a href="#ref2" class="footnote-back-link">↩</a></li>
-                        <li id="fn3"><p>Mental Health Science, "From Mycelium to Humans: The Importance of Networks in Psychedelic Therapies," June 3, 2021.</p><a href="#ref3" class="footnote-back-link">↩</a></li>
-                        <li id="fn4"><p>Life in the Ravines, "Nature's Underground Social Network: The Remarkable World of Mycelium," March 10, 2025.</p><a href="#ref4" class="footnote-back-link">↩</a></li>
-                        <li id="fn5"><p>Bin Cheng et al., "Mechanisms of Cooperation in the Plants-Arbuscular Mycorrhizal Fungi Mutualism," <em>ISME Journal</em> 19, no. 1 (2025): wraf023.</p><a href="#ref5" class="footnote-back-link">↩</a></li>
-                        <li id="fn6"><p>"Myceloom: The Linguistic Infrastructure of Web4," <a href="https://myceloom.com" target="_blank" rel="noopener noreferrer">https://myceloom.com</a>.</p><a href="#ref6" class="footnote-back-link">↩</a></li>
-                        <li id="fn7"><p>Society for the Protection of Underground Networks, "SPUN: Protecting Fungal Networks," accessed September 29, 2025.</p><a href="#ref7" class="footnote-back-link">↩</a></li>
-                        <li id="fn8"><p>Mycelium Youth Network, "Seeding Climate Resilient Futures," accessed September 29, 2025.</p><a href="#ref8" class="footnote-back-link">↩</a></li>
-                        <li id="fn9"><p>The Isbourne, "What Mushrooms Can Teach Us About Community," March 21, 2021.</p><a href="#ref9" class="footnote-back-link">↩</a></li>
-                        <li id="fn10"><p>Mycelium Network Society, "Underground Network Imagination," accessed September 29, 2025.</p><a href="#ref10" class="footnote-back-link">↩</a></li>
-                        <li id="fn11"><p>Mary Schnorrenberg, "Community - Connecting Our Networks up like Mycelium," September 24, 2024.</p><a href="#ref11" class="footnote-back-link">↩</a></li>
-                        <li id="fn12"><p>Stanford Report, "Scientists Tap into the Fungal Network," September 30, 2024.</p><a href="#ref12" class="footnote-back-link">↩</a></li>
-                        <li id="fn13"><p>Resilience, "The Wisdom of Fungi Inspires Community Conservation," October 2, 2023.</p><a href="#ref13" class="footnote-back-link">↩</a></li>
-                        <li id="fn14"><p>Lifestyle Sustainability Directory, "Mycelial Networks," July 28, 2025.</p><a href="#ref14" class="footnote-back-link">↩</a></li>
-                        <li id="fn15"><p>Fungi Perfecti, "The Mycelium Network Connects Us All," May 13, 2024.</p><a href="#ref15" class="footnote-back-link">↩</a></li>
-                        <li id="fn16"><p>The Isbourne, "What Mushrooms Can Teach Us About Community."</p><a href="#ref16" class="footnote-back-link">↩</a></li>
-                        <li id="fn17"><p>The Urban Mycelium, "The Urban Mycelium," February 22, 2023.</p><a href="#ref17" class="footnote-back-link">↩</a></li>
-                        <li id="fn18"><p>Fungi Perfecti, "The Mycelium Network Connects Us All."</p><a href="#ref18" class="footnote-back-link">↩</a></li>
-                        <li id="fn19"><p>Resilience, "The Wisdom of Fungi Inspires Community Conservation."</p><a href="#ref19" class="footnote-back-link">↩</a></li>
-                        <li id="fn20"><p>White Mountain Adventures, "The Mycelium Network: Nature's Hidden Web of Life," November 11, 2024.</p><a href="#ref20" class="footnote-back-link">↩</a></li>
-                        <li id="fn21"><p>"Myceloom: The Linguistic Infrastructure of Web4," <a href="https://myceloom.com" target="_blank" rel="noopener noreferrer">https://myceloom.com</a>.</p><a href="#ref21" class="footnote-back-link">↩</a></li>
-                        <li id="fn22"><p>Resilience, "The Wisdom of Fungi Inspires Community Conservation."</p><a href="#ref22" class="footnote-back-link">↩</a></li>
+                        <li id="fn1">
+                            <p>Elinor Ostrom, "Governing the Commons: The Evolution of Institutions for Collective
+                                Action" (Cambridge: Cambridge University Press, 1990), 23-45.</p><a href="#ref1"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn2">
+                            <p>Suzanne Simard, "Finding the Mother Tree: Discovering the Wisdom of the Forest" (New
+                                York: Knopf, 2021), 187-203.</p><a href="#ref2" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn3">
+                            <p>Mental Health Science, "From Mycelium to Humans: The Importance of Networks in
+                                Psychedelic Therapies," June 3, 2021.</p><a href="#ref3"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn4">
+                            <p>Life in the Ravines, "Nature's Underground Social Network: The Remarkable World of
+                                Mycelium," March 10, 2025.</p><a href="#ref4" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn5">
+                            <p>Bin Cheng et al., "Mechanisms of Cooperation in the Plants-Arbuscular Mycorrhizal Fungi
+                                Mutualism," <em>ISME Journal</em> 19, no. 1 (2025): wraf023.</p><a href="#ref5"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn6">
+                            <p>"Myceloom: The Linguistic Infrastructure of Web4," <a href="https://myceloom.com"
+                                    target="_blank" rel="noopener noreferrer">https://myceloom.com</a>.</p><a
+                                href="#ref6" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn7">
+                            <p>Society for the Protection of Underground Networks, "SPUN: Protecting Fungal Networks,"
+                                accessed September 29, 2025.</p><a href="#ref7" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn8">
+                            <p>Mycelium Youth Network, "Seeding Climate Resilient Futures," accessed September 29, 2025.
+                            </p><a href="#ref8" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn9">
+                            <p>The Isbourne, "What Mushrooms Can Teach Us About Community," March 21, 2021.</p><a
+                                href="#ref9" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn10">
+                            <p>Mycelium Network Society, "Underground Network Imagination," accessed September 29, 2025.
+                            </p><a href="#ref10" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn11">
+                            <p>Mary Schnorrenberg, "Community - Connecting Our Networks up like Mycelium," September 24,
+                                2024.</p><a href="#ref11" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn12">
+                            <p>Stanford Report, "Scientists Tap into the Fungal Network," September 30, 2024.</p><a
+                                href="#ref12" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn13">
+                            <p>Resilience, "The Wisdom of Fungi Inspires Community Conservation," October 2, 2023.</p><a
+                                href="#ref13" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn14">
+                            <p>Lifestyle Sustainability Directory, "Mycelial Networks," July 28, 2025.</p><a
+                                href="#ref14" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn15">
+                            <p>Fungi Perfecti, "The Mycelium Network Connects Us All," May 13, 2024.</p><a href="#ref15"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn16">
+                            <p>The Isbourne, "What Mushrooms Can Teach Us About Community."</p><a href="#ref16"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn17">
+                            <p>The Urban Mycelium, "The Urban Mycelium," February 22, 2023.</p><a href="#ref17"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn18">
+                            <p>Fungi Perfecti, "The Mycelium Network Connects Us All."</p><a href="#ref18"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn19">
+                            <p>Resilience, "The Wisdom of Fungi Inspires Community Conservation."</p><a href="#ref19"
+                                class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn20">
+                            <p>White Mountain Adventures, "The Mycelium Network: Nature's Hidden Web of Life," November
+                                11, 2024.</p><a href="#ref20" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn21">
+                            <p>"Myceloom: The Linguistic Infrastructure of Web4," <a href="https://myceloom.com"
+                                    target="_blank" rel="noopener noreferrer">https://myceloom.com</a>.</p><a
+                                href="#ref21" class="footnote-back-link">↩</a>
+                        </li>
+                        <li id="fn22">
+                            <p>Resilience, "The Wisdom of Fungi Inspires Community Conservation."</p><a href="#ref22"
+                                class="footnote-back-link">↩</a>
+                        </li>
                     </ol>
                 </section>
             </article>
@@ -360,12 +660,17 @@
                     <dt>Core Concepts</dt>
                     <!-- Converted <code> to <em> per guidelines -->
                     <dd>
-                        <a href="https://myceloom.com" target="_blank" rel="noopener noreferrer"><em>myceloom.com</em></a><br>
+                        <a href="https://myceloom.com" target="_blank"
+                            rel="noopener noreferrer"><em>myceloom.com</em></a><br>
                         <em class="main-domain">myceloom.org</em><br>
-                        <a href="https://myceloom.net" target="_blank" rel="noopener noreferrer"><em>myceloom.net</em></a><br>
-                        <a href="https://myceloom.ai" target="_blank" rel="noopener noreferrer"><em>myceloom.ai</em></a><br>
-                        <a href="https://myceloom.io" target="_blank" rel="noopener noreferrer"><em>myceloom.io</em></a><br>
-                        <a href="https://myceloom.im" target="_blank" rel="noopener noreferrer"><em>myceloom.im</em></a><br>
+                        <a href="https://myceloom.net" target="_blank"
+                            rel="noopener noreferrer"><em>myceloom.net</em></a><br>
+                        <a href="https://myceloom.ai" target="_blank"
+                            rel="noopener noreferrer"><em>myceloom.ai</em></a><br>
+                        <a href="https://myceloom.io" target="_blank"
+                            rel="noopener noreferrer"><em>myceloom.io</em></a><br>
+                        <a href="https://myceloom.im" target="_blank"
+                            rel="noopener noreferrer"><em>myceloom.im</em></a><br>
                         <a href="https://myceloom.co" target="_blank" rel="noopener noreferrer"><em>myceloom.co</em></a>
                     </dd>
                 </div>
@@ -375,11 +680,17 @@
                 </div>
                 <div class="logo-footer">
                     <small>
-                        a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer">liminal mind meld</a></b> collaboration: <b><a href="https://unearth.im" target="_blank" rel="noopener noreferrer"><span style="color: #2E2E2E;">unearth</span><span style="color: #A95C3D;">.im</span></a></b> | <b><a href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer">archive & anvil</a></b>
+                        a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer">liminal
+                                mind meld</a></b> collaboration: <b><a href="https://unearth.im" target="_blank"
+                                rel="noopener noreferrer"><span style="color: #2E2E2E;">unearth</span><span
+                                    style="color: #A95C3D;">.im</span></a></b> | <b><a
+                                href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer">archive &
+                                anvil</a></b>
                     </small>
                 </div>
             </div>
         </aside>
     </div>
 </body>
+
 </html>
